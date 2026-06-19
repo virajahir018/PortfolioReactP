@@ -23,6 +23,18 @@ html {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.col-lg-6 img{
+  height: 250px;
+}
+
+.skill-box{
+  height: 100px;
+  background: #59a5d8;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+}
+
 .project-section {
   background: #b6cde4;
 }

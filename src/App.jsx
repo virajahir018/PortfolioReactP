@@ -53,28 +53,38 @@ function App() {
           <div className="row align-items-center min-vh-100">
 
             <div className="col-lg-6">
-              <h1 className="display-4 fw-bold text-black">
-                Hi, I'm Viraj Ahir
+              <span className="badge bg-info px-3 py-2 mb-3">
+                Welcome To My Portfolio
+              </span>
+
+              <h1 className="display-2 fw-bold text-white">
+                Viraj Ahir
               </h1>
 
-              <h3 className="text-info-emphasis mt-3">
-                Front-End Developer
+              <h3 className="text-info mt-3">
+                React Developer
               </h3>
 
-              <p className="mt-4 text-secondary">
-                I build responsive websites using React,
-                Bootstrap, JavaScript, HTML and CSS.
+              <p className="text-light mt-4 fs-5">
+                I create modern, responsive and user-friendly
+                websites using React JS, Bootstrap and JavaScript.
               </p>
 
-              <button className="btn btn-secondary btn-lg mt-3">
-                More About Me
-              </button>
+              <div className="mt-4">
+                <a href="#projects" className="btn btn-info btn-lg me-3">
+                  View Projects
+                </a>
+
+                <button className="btn btn-outline-light btn-lg">
+                  Download CV
+                </button>
+              </div>
             </div>
 
             <div className="col-lg-6 text-center">
               <img
                 src={I}
-                alt="profile"
+                alt=""
                 className="profile-img"
               />
             </div>
@@ -90,7 +100,7 @@ function App() {
           <div className="row">
             <div className="col-lg-6">
               <img
-                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*eT3XLf-nCipO4AoComKZDQ.jpeg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9-nbabzALNlDPDlC0Kx6z_RLGGly8n2NAMQ&s"
                 alt=""
                 className="img-fluid rounded shadow"
               />
@@ -110,6 +120,48 @@ function App() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="skills py-5">
+        <div className="container">
+
+          <h2 className="text-center mb-5">
+            My Skills
+          </h2>
+
+          <div className="row text-center">
+
+            <div className="col-md-3">
+              <div className="skill-box">
+                <h4>HTML</h4>
+                <p>100%</p>
+              </div>
+            </div>
+
+            <div className="col-md-3">
+              <div className="skill-box">
+                <h4>CSS</h4>
+                <p>100%</p>
+              </div>
+            </div>
+
+            <div className="col-md-3">
+              <div className="skill-box">
+                <h4>JavaScript</h4>
+                <p>100%</p>
+              </div>
+            </div>
+
+            <div className="col-md-3">
+              <div className="skill-box">
+                <h4>React</h4>
+                <p>100%</p>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </section>
 
